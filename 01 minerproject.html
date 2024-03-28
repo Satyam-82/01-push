@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body style="background-color: aqua; text-align: center;"
+
+    <h2>Form Example</h2>
+
+    <form action="#" method="post">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="remember">
+            <input type="checkbox" id="remember" name="remember"> Remember me
+        </label><br><br>
+
+        <label>Gender:</label><br>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male"> Male
+        </label><br>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female"> Female
+        </label><br>
+        <label for="other">
+            <input type="radio" id="other" name="gender" value="other"> Other
+        </label><br><br>
+
+        <label for="sectors">Choose sectors:</label><br>
+        <select id="sectors" name="sectors" multiple>
+            <option value="it">IT</option>
+            <option value="finance">Finance</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="education">Education</option>
+            <option value="manufacturing">Manufacturing</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
